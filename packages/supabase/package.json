@@ -11,5 +11,10 @@
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.50.0"
+  },
+  "exports": {
+    "./client": "./src/auth/client",
+    "./server": "./src/auth/server",
+    "./admin": "./src/auth/admin"
   }
 }
