@@ -1,1 +1,1 @@
-export { MenuIcon } from "lucide-react";
+export { MenuIcon, EyeIcon, EyeOffIcon } from "lucide-react";

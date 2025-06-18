@@ -1,5 +1,5 @@
-import { createClient, SupabaseClient } from "@supabase/supabase-js";
-import { Database } from "../../types/db-generated";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import type { Database } from "../../types/db-generated";
 
 export async function createAdminClient(
   supabaseUrl: string,

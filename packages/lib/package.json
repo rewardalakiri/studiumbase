@@ -1,0 +1,25 @@
+{
+  "name": "@repo/lib",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@dbml/cli": "^3.13.5",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "drizzle-kit": "^0.31.1",
+    "eslint": "^9.29.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@uidotdev/usehooks": "^2.4.1",
+    "dotenv": "^16.0.3",
+    "drizzle-orm": "^0.44.2",
+    "postgres": "^3.4.7",
+    "zod": "^3.25.67"
+  },
+  "exports": {
+    "./hooks": "./src/hooks",
+    "./schemas": "./src/schemas"
+  }
+}
