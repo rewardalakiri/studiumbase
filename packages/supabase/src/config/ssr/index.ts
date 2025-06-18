@@ -1,7 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
-import { ReadonlyRequestCookies } from "next/dist/server/web/spec-extension/adapters/request-cookies";
-import { SupabaseClient } from "@supabase/supabase-js";
-import { Database } from "../../types/db-generated";
+import type { ReadonlyRequestCookies } from "next/dist/server/web/spec-extension/adapters/request-cookies";
+import type { SupabaseClient } from "@supabase/supabase-js";
+import type { Database } from "../../types/db-generated";
 
 export async function createNextSSRClient(
   supabaseUrl: string,
