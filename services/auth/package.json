@@ -1,0 +1,21 @@
+{
+  "name": "sb-auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "dependencies": {
+    "@repo/supabase-config": "^0.0.0",
+    "@repo/validators": "^0.0.0",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.50.2"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "^0.0.0",
+    "@repo/typescript-config": "^0.0.0",
+    "eslint": "^9.29.0",
+    "typescript": "^5.8.2"
+  },
+  "exports": {
+    "default": "./src/index.ts"
+  }
+}

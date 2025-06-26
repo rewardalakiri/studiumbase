@@ -1,0 +1,35 @@
+{
+  "name": "sb-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "@repo/env": "*",
+    "@repo/validators": "*",
+    "@repo/supabase-config": "*",
+    "sb-database": "*",
+    "@trpc/server": "^11.4.2",
+    "superjson": "2.2.2"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "eslint": "^9.29.0",
+    "typescript": "^5.8.2"
+  }
+}

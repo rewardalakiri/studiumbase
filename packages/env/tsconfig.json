@@ -1,0 +1,15 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true
+  },
+
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist", "build"]
+}
