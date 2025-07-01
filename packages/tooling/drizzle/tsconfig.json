@@ -1,0 +1,10 @@
+{
+  "extends": "@sb/typescript-config/base.json",
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"],
+    "sourceMap": true,
+    "types": ["jest", "node"],
+  },
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}

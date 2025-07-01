@@ -1,0 +1,21 @@
+{
+  "name": "@sb/drizzle",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "devDependencies": {
+    "@sb/eslint-config": "*",
+    "@sb/logger": "*",
+    "@sb/typescript-config": "*",
+    "drizzle-kit": "0.30.4",
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "drizzle-orm": "0.39.0",
+    "postgres": "^3.4.7"
+  }
+}

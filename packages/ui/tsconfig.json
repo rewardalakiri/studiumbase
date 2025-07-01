@@ -1,0 +1,11 @@
+{
+  "extends": "@sb/typescript-config/react-library.json",
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"],
+    "sourceMap": true,
+    "types": ["jest", "node"],
+    "jsx": "react"
+  },
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
